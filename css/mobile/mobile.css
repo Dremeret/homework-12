@@ -176,6 +176,11 @@ input[type=checkbox]:checked ~ .menu-btn{
 background:#1A75E8 ;
 border-radius: 5px;}
 
+.vacansies-cards *{
+ box-sizing: border-box;
+}
+ 
+
 
 
 
