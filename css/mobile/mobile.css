@@ -1,0 +1,199 @@
+.cards{
+    width: 166px;
+    height:918px ;
+    margin: 40px auto 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+.cards > li {
+	background: #F2F3F6;
+	border-radius: 10px;
+	height: 128px;
+	width: 166px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.categories-title{
+    margin-top: 50px;
+    text-align: center;
+}
+.cards i{
+    margin-bottom: 15px;
+}
+
+
+/* SECTION JOBS */
+
+
+.vacansies-cards{
+    width: 290px;
+    height: 1824;
+    margin: 40px auto 30px;
+}
+ .vacansies-card{
+    border: 1px solid black;
+    width: 290px;
+    height: 441px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 0 30px;
+    margin-top: 50px;
+
+ }
+ 
+ .vacansies-title{
+    width:173px ;
+    height: 46px; ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vacancie-stack{
+    width: 183px;
+    height: 59px; ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vacancie-stack .stack{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* 
+HEADER MENU */
+
+.menu-btn{
+    display: none;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+ 
+label{
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+label span,
+label span::after,
+label span::before{
+   content: "";
+   height: 2px;
+   width: 25px;
+   background: #333;
+   position: absolute;
+   right: 0;
+   transition: 0.3s;
+}
+ 
+label span::before{
+    top: -8px;
+}
+
+label span::after{
+    top: 8px;
+}
+
+input[type="checkbox"]:checked ~ label span{
+    transform: rotate(-45deg);
+    
+}
+
+input[type="checkbox"]:checked ~ label span::before{
+    top: 0;
+    transform: rotate(0);
+    
+}
+
+input[type="checkbox"]:checked ~ label span::after{
+    top: 0;
+    transform: rotate(90deg);
+}
+input[type=checkbox]:checked ~ .menu-btn{
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .menu-btn{
+    
+        width: 100%;
+        background-color: aquamarine;
+    }
+}
+    .btn-coast{
+        border: 1px solid  black ;
+        background: #1A75E8;
+        border-radius: 5px;
+        font-family: 'Fira Sans';
+
+    }
+    
+    .vacancie-stack{
+        font-family: 'Fira Sans';
+        color: #B2B2B2;
+    }
+
+ .Reac {
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    width: 50px;
+    
+ }
+ .Sass{
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    width: 50px;
+ }
+ .Figma{
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    width: 50px;
+ }
+ .more{
+    right: 50px;
+ }
+
+.btn-more-vacansies{
+background:#1A75E8 ;
+border-radius: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

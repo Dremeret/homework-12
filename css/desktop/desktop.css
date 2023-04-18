@@ -1,0 +1,64 @@
+@media (min-width:1000px) {
+    .cards{
+        flex-direction: row;
+        
+        height: 128px;
+        width: 1146px;
+    }
+       
+
+
+
+
+    .categories-title{
+        text-align: left;
+        font-weight: bolder;
+        font-family: 'Fira Sans';
+        margin-left: 140px;
+        
+    }
+
+   .vacansies-cards{
+    width: 1146px;
+    height: 700px;
+   }
+
+ 
+
+.vacansies-card{
+    flex-direction:row ;
+    width: 1146px;
+    height: 160px;
+    border-radius: 10px;
+}
+ 
+.categories-title{
+    width: 1146px;
+    margin: 0 auto;
+ 
+}
+
+.vacancie-stack{
+    font-family: 'Fira Sans';
+    color: #B2B2B2;
+}
+
+.Reac {
+border: 1px solid #B2B2B2;
+border-radius: 5px;
+width: 50px;
+
+}
+.Sass{
+border: 1px solid #B2B2B2;
+border-radius: 5px;
+width: 50px;
+}
+.Figma{
+border: 1px solid #B2B2B2;
+border-radius: 5px;
+width: 50px;
+}
+
+
+   }
