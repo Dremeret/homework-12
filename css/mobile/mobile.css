@@ -1,4 +1,8 @@
-.cards{
+*{
+    box-sizing: border-box;
+}
+ 
+ .cards{
     width: 166px;
     height:918px ;
     margin: 40px auto 50px;
